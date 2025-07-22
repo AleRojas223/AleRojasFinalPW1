@@ -4,6 +4,9 @@ import NotFound from "./pages/NotFound";
 import Jonas from "./pages/Jonas";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Dashboard from "./pages/Dashboard";
+import PuntoDeVenta from "./pages/PuntoDeVenta";
+import Categories from "./pages/Categorias";
+import Ale from "./pages/Ale";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
       {
         path: "/jonas",
         element: <Jonas />,
+      },
+      {
+       path: "/ale",
+       element: <Ale /> 
+      },
+      {
+       path: "/venta",
+       element: <PuntoDeVenta /> 
+      },
+       {
+       path: "/categorias",
+       element: <Categories /> 
       },
     ],
   },
