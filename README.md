@@ -5,7 +5,9 @@
 
 #### Requisitos previos
 Node.js (v16+)
+
 npm (v8+)
+
 MySQL Server (local o remoto)
 
 #### Configuración inicial
